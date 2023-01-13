@@ -1,0 +1,89 @@
+* {
+    margin: 0px;
+    width: 100%;
+
+}
+
+/* COMMON STYLE OR Utilitices------ */
+body {
+    background: #F3F1FF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* top players style ------------ */
+.container {
+    background: #FFFFFF;
+    width: 870px;
+    /* padding: 30px; */
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+}
+
+.container-tittle {
+    color: #562EFF;
+    font-size: 26px;
+    font-weight: bolder;
+    margin: 20px 22px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  
+
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+    left: 315px;
+}
+
+
+
+/* top blogs style-------------- */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-row-gap: 16px; */
+    gap: 16px;
+    padding: 20px;
+}
+
+.bolg {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+
+}
+
+.bolg img {
+    width: 177px;
+    height: 117px;
+}
+
+/* ------------------------- */
+
+.courseDetails {
+    margin-top: 30px;
+    gap: 20px;
+}
